@@ -1,0 +1,55 @@
+body{
+    position: relative;
+}
+.nav{
+    margin-left:35%;
+  }
+  .card-deck{
+      margin-top: 20px;
+      margin-left:5px;
+  }
+  .logo {
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+    margin-left:2%;
+    
+  }
+  .cat{
+  width:300px;
+  height:100%;
+  float: left;
+  }
+  .cat li{
+    margin:20px;
+    list-style:none;
+    font-weight: bold;
+  }
+  .con{
+    width:70%;
+    float:left;
+  height:100%;
+  
+  }
+  
+  .logo-name{
+    position: absolute;
+    top:10px;
+    left:40%;
+  }
+  .product{
+    width:70%;
+    height:100%;
+    float: left;
+
+  }
+  .price{
+    width:30%;
+    height:100%;
+    float: left;
+  }
+ 
+  td{
+    height:150px;
+    width:200px;
+  }
