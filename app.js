@@ -16,7 +16,7 @@ var port=process.env.PORT || 3001;
 
 
 
-var db=mongoose.connect('mongodb://test00:test00@ds135413.mlab.com:35413/sampleproject',function(error){
+var db=mongoose.connect('sampleproject',function(error){
     if(error) console.log(error);
     else console.log("Database Connected");
 });
@@ -337,3 +337,6 @@ app.post('/register',urlencodedParser, function(req,res){
 
 
 app.listen(port);
+/*
+'mongodb://test00:test00@ds135413.mlab.com:35413/
+*/
